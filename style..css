@@ -1,0 +1,113 @@
+body{
+background-color:#80747D;
+}
+.header-container{
+  font-size: 10px;
+  color: navy;
+  background: #020024;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(108, 176, 189, 1) 17%, rgba(0, 212, 255, 1) 100%);
+  display: grid;
+  height: 50vh;
+  padding: 40px;
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+span{
+  color: navajowhite;
+  font-size: 40px;
+}
+.header-gif{
+  height: 50px;
+  width: 50px;
+}
+.hero-container{
+  font-family: "", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+.footer-container {
+    background-image: linear-gradient(45deg, #e4e8ea 25%, transparent 25%, transparent 75%, #f1ecec 75%),
+    linear-gradient(45deg, #dce7f8 25%, transparent 25%, transparent 75%, #beeef7 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    height: 50vh;
+    color: #495D78;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif ;
+}
+.my-icons{
+    border: 5px solid #495D78;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: mediumturquoise;
+    width: 60px;
+    height: 60px;
+}
+.footer-img{
+    width: 30px;
+    height: 30px;
+}
+.copyright{
+    font-size: 20px;
+}
+
+#svg-text{
+  color:honeydew;
+  background-color: #495D78;
+}
+svg{
+    color: #495D78;
+    border: 0;
+    margin: 0;
+}
+#navyblue{
+  color: rgb(36, 93, 100);
+}
+.right{
+  justify-self: end;
+  margin-top: -50px;
+}
+.left{
+justify-self: start;
+}
+.centre{
+  justify-self: center;
+}
+@media(max-width: 500px){
+h1{font-size: 20px;}
+.header-container{font-size: 15px;background:#50ADBF;}
+.left{margin-top: -25px;}
+.right{margin-top: 30px;}
+.header-gif{height: 20px; width: 20px;}
+.my-icons{width: 35px; height: 35px;}
+.footer-img{width: 20px; height: 20px;margin-top: -23px;margin-left: -7px;}
+.hero-container{font-family: sans-serif, cursive;}
+span{color: khaki;}
+}
+@media(max-width: 800px){
+h1{font-size: 20px;}
+.header-container{font-size: 25px;background:#50ADBF#00D4FF;}
+.left{margin-top: -30px;}
+.right{margin-top: 30px;}
+.header-gif{height: 80px; width: 80px;}
+}
+@media(max-width: 1200px){
+h1{font-size: 30px;}
+.header-container{font-size: 15px;background:#50ADBF#00D4FF;}
+.left{margin-top: -30px;}
+.right{margin-top: 20px;}
+.header-gif{height: 70px; width: 70px;}
+}
+@media(min-width: 1201px){
+h1{font-size: 30px;}
+.header-container{font-size: 20px;}
+.left{margin-top: -30px;}
+.right{margin-top: -40px;}
+.header-gif{height: 100px; width: 100px;}
+}
